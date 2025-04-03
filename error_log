@@ -1,0 +1,16 @@
+[05-Feb-2024 15:05:11 UTC] PHP Warning:  require(/home/clrenergyapp/public_html/vendor/composer/../../app/Helper/helpers.php): Failed to open stream: No such file or directory in /home/clrenergyapp/public_html/vendor/composer/autoload_real.php on line 41
+[05-Feb-2024 15:05:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/clrenergyapp/public_html/vendor/composer/../../app/Helper/helpers.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/clrenergyapp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/clrenergyapp/public_html/vendor/composer/autoload_real.php(45): {closure}('1f9e54d362959b6...', '/home/clrenergy...')
+#1 /home/clrenergyapp/public_html/vendor/autoload.php(25): ComposerAutoloaderInit6fbf26ac30585fcaf956cdbcee5fd39a::getLoader()
+#2 /home/clrenergyapp/public_html/index.php(34): require('/home/clrenergy...')
+#3 {main}
+  thrown in /home/clrenergyapp/public_html/vendor/composer/autoload_real.php on line 41
+[05-Feb-2024 15:05:14 UTC] PHP Warning:  require(/home/clrenergyapp/public_html/vendor/composer/../../app/Helper/helpers.php): Failed to open stream: No such file or directory in /home/clrenergyapp/public_html/vendor/composer/autoload_real.php on line 41
+[05-Feb-2024 15:05:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/clrenergyapp/public_html/vendor/composer/../../app/Helper/helpers.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/clrenergyapp/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/clrenergyapp/public_html/vendor/composer/autoload_real.php(45): {closure}('1f9e54d362959b6...', '/home/clrenergy...')
+#1 /home/clrenergyapp/public_html/vendor/autoload.php(25): ComposerAutoloaderInit6fbf26ac30585fcaf956cdbcee5fd39a::getLoader()
+#2 /home/clrenergyapp/public_html/index.php(34): require('/home/clrenergy...')
+#3 {main}
+  thrown in /home/clrenergyapp/public_html/vendor/composer/autoload_real.php on line 41
